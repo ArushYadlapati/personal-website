@@ -11,7 +11,7 @@ function Experience() {
   return (
     <div id="experience" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
       <Image
-        src="/section.svg"
+        src="./section.svg"
         alt="Hero"
         width={1572}
         height={795}
@@ -38,17 +38,20 @@ function Experience() {
 
           <div>
             <div className="flex flex-col gap-6">
-              {
+                {
                 experiences.map(experience => (
                   <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>
+
                     <div className="p-3 relative">
+
                       <Image
-                        src="/blur-23.svg"
+                        src="./blur-23.svg"
                         alt="Hero"
                         width={1080}
                         height={200}
                         className="absolute bottom-0 opacity-80"
                       />
+
                       <div className="flex justify-center">
                         <p className="text-xs sm:text-sm text-[#16f2b3]">
                           {experience.duration}
