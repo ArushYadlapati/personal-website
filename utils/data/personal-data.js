@@ -1,6 +1,7 @@
 export const personalData = {
   name: "Arush",
-  profile: './profile.png',
+
+
   designation: "Software Developer",
   description: "I am a freshman at Tesla STEM High School (class of 2027), and I am a passionate web developer, robotics programmer, and STEM enthusiast! Some of my hobbies include reading, playing chess, and coding. I started FIRST® Robotics in 2021.",
   email: 'arush.yadlapati@gmail.com',
