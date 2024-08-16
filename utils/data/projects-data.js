@@ -41,7 +41,7 @@ export const projectsData = [
         tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
         code: '',
         demo: '',
-        image: ayla,
+        image: "ayla",
         role: 'Full Stack Developer',
     }
 ];

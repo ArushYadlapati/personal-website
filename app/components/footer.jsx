@@ -20,14 +20,14 @@ function Footer() {
             <Link
                 href={personalData.github}
                 target='_blank'
-                className="transition-all text-blue-400 hover:scale-125 duration-300"
+                className="transition-all text-sky-500 hover:scale-125 duration-300"
             >
               <BsGithub size={30} />
             </Link>
             <Link
                 href={personalData.discord}
                 target='_blank'
-                className="transition-all text-pink-500 hover:scale-125 duration-300"
+                className="transition-all text-sky-500 hover:scale-125 duration-300"
             >
               <BsDiscord size={30} />
             </Link>
