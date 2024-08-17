@@ -3,8 +3,7 @@
 import {personalData} from "@/utils/data/personal-data";
 import Image from "next/image";
 import Link from "next/link";
-import {BsDiscord, BsGithub, BsLinkedin} from "react-icons/bs";
-import {MdDownload} from "react-icons/md";
+import {BsDiscord, BsGithub} from "react-icons/bs";
 import {RiContactsFill} from "react-icons/ri";
 
 import TypeAnimation from './TypeAnimation';
@@ -25,8 +24,7 @@ function HeroSection() {
                     className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
                     <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
                         Hi, <br/>
-                        {/* eslint-disable-next-line react/no-unescaped-entities */}
-                        I'm {' '}
+                        I&apos;m {' '}
                         <span className=" text-pink-500">{personalData.name}</span>
                         {`, and I am a`}
                         <br/>
@@ -81,80 +79,89 @@ function HeroSection() {
                         <code className="font-mono text-xs md:text-sm lg:text-base">
                             <div className="blink">
                                 <span className="mr-2 text-pink-500">const</span>
-                                <span className="mr-2 text-white">coder</span>
+                                <span className="mr-2 text-white">arush</span>
                                 <span className="mr-2 text-pink-500">=</span>
                                 <span className="text-gray-400">{'{'}</span>
                             </div>
                             <div>
-                                <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
-                                <span className="text-gray-400">{`'`}</span>
-                                <span className="text-amber-300">Arush</span>
-                                <span className="text-gray-400">{`',`}</span>
+                                <span className="ml-8 mr-2 text-white">skills:</span>
+                                <span className="text-gray-400">{'{'}</span>
                             </div>
-                            <div className="ml-4 lg:ml-8 mr-2">
-                                <span className=" text-white">skills:</span>
-                                <span className="text-gray-400">{`['`}</span>
-                                <span className="text-amber-300">Python</span>
-                                <span className="text-gray-400">{"', '"}</span>
-                                <span className="text-amber-300">Java</span>
-                                <span className="text-gray-400">{"', '"}</span>
-                                <span className="text-amber-300">C</span>
-                                <span className="text-gray-400">{"', '"}</span>
-                                <span className="text-amber-300">C++</span>
-                                <span className="text-gray-400">{"', '"}</span>
-                                <span className="text-amber-300">HTML</span>
-                                <span className="text-gray-400">{"', '"}</span>
-                                <span className="text-amber-300">CSS</span>
-                                <span className="text-gray-400">{"', '"}</span>
-                                <span className="text-amber-300">JavaScript</span>
-                                <span className="text-gray-400">{"', '"}</span>
-                                <span className="text-amber-300">Kotlin</span>
-                                <span className="text-gray-400">{"', '"}</span>
-                                <span className="text-amber-300">Gradle</span>
-                                <span className="text-gray-400">{"'],"}</span>
-
+                            <div>
+                                <span className="ml-16 mr-2 text-white">languages:</span>
+                                <span className="text-gray-400">{'{'}</span>
                             </div>
-
+                            <div>
+                                <span className="ml-24 mr-2 text-white">web:</span>
+                                <span className="text-gray-400">{'['}</span>
+                                <span className="text-amber-300">&apos;HTML&apos;</span>
+                                <span className="text-gray-400">,</span>
+                                <span className="text-amber-300">&apos;CSS&apos;</span>
+                                <span className="text-gray-400">,</span>
+                                <span className="text-amber-300">&apos;JavaScript&apos;</span>
+                                <span className="text-gray-400">{']'},</span>
+                            </div>
+                            <div>
+                                <span className="ml-24 mr-2 text-white">systems:</span>
+                                <span className="text-gray-400">{'['}</span>
+                                <span className="text-amber-300">&apos;C&apos;</span>
+                                <span className="text-gray-400">,</span>
+                                <span className="text-amber-300">&apos;C++&apos;</span>
+                                <span className="text-gray-400">{']'},</span>
+                            </div>
+                            <div>
+                                <span className="ml-24 mr-2 text-white">jvm:</span>
+                                <span className="text-gray-400">{'['}</span>
+                                <span className="text-amber-300">&apos;Java&apos;</span>
+                                <span className="text-gray-400">,</span>
+                                <span className="text-amber-300">&apos;Kotlin&apos;</span>
+                                <span className="text-gray-400">{']'},</span>
+                            </div>
+                            <div>
+                                <span className="ml-24 mr-2 text-white">scripting:</span>
+                                <span className="text-gray-400">{'['}</span>
+                                <span className="text-amber-300">&apos;Python&apos;</span>
+                                <span className="text-gray-400">{']'},</span>
+                            </div>
+                            <div>
+                                <span className="ml-16 text-gray-400">{'}'},</span>
+                            </div>
                             <div>
                                 <br/>
-                                <span className="ml-8 text-red-400">characteristics:</span>
-                                <span className="ml-2 text-pink-500">function</span>
-                                <span className="text-gray-400">{`()`}</span>
-                                <span className="ml-2 text-gray-400">{'{'}</span>
-                            </div>
-
-                            <div>
-                            <span className="ml-8 lg:ml-16 mr-2 text-orange-400">return</span>
-                                <span className="text-gray-400">{`(`}</span>
-                            </div>
-                            <div>
-                                <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-                                <span className="mr-2 text-white">programmer</span>
-                                <span className="text-amber-300">&amp;&amp;</span>
+                                <span className="ml-16 mr-2 text-white">libraries:</span>
+                                <span className="text-gray-400">{'['}</span>
+                                <span className="text-amber-300">&apos;Next.js&apos;</span>
+                                <span className="text-gray-400">,</span>
+                                <span className="text-amber-300">&apos;Node.js&apos;</span>
+                                <span className="text-gray-400">,</span>
+                                <span className="text-amber-300">&apos;React.js&apos;</span>
+                                <span className="text-gray-400">,</span>
+                                <span className="text-amber-300">&apos;Gradle&apos;</span>
+                                <span className="text-gray-400">{']'},</span>
                             </div>
                             <div>
-                                <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-                                <span className="mr-2 text-white">robotics</span>
-                                <span className="text-amber-300">&amp;&amp;</span>
+                                <span className="ml-8 text-gray-400">{'}'},</span>
                             </div>
                             <div>
-                                <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-                                <span className="mr-2 text-white">student</span>
-                                <span className="text-amber-300">&amp;&amp;</span>
+                                <br/>
+                                <span className="ml-8 mr-2 text-white">characteristics:</span>
+                                <span className="text-gray-400">{'['}</span>
+                                <span className="text-amber-300">&apos;PROGRAMMER&apos;</span>
+                                <span className="text-gray-400">,</span>
+                                <span className="text-amber-300">&apos;STUDENT&apos;</span>
+                                <span className="text-gray-400">,</span>
+                                <span className="text-amber-300">&apos;ROBOTICS&apos;</span>
+                                <span className="text-gray-400">{']'}</span>
                             </div>
                             <div>
-                                <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-                                <span className="mr-2 text-white">mentor</span>
+                                <span className="text-gray-400">{'};'}</span>
                             </div>
-                            <div><span className="ml-8 lg:ml-16 mr-2 text-gray-400">{`);`}</span></div>
-                            <div><span className="ml-4 lg:ml-8 text-gray-400">{`};`}</span></div>
-                            <div><span className="text-gray-400">{`};`}</span></div>
                         </code>
                     </div>
                 </div>
             </div>
         </section>
     );
-};
+}
 
 export default HeroSection;
