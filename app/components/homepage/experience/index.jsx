@@ -66,10 +66,11 @@ function Experience() {
                                                         {experience.title}
                                                     </p>
                                                     <p className="text-sm sm:text-base text-[#16f2b3]">
-                                                        <a href={experience.link} target="_blank" rel="noopener noreferrer">
-                                                        <span style={{textDecoration: "underline"}}>
-                                                            {experience.company}
-                                                        </span>
+                                                        <a href={experience.link} target="_blank"
+                                                            rel="noopener noreferrer">
+                                                            <span style={{textDecoration: "underline"}}>
+                                                                {experience.company}
+                                                            </span>
                                                         </a>
                                                     </p>
                                                 </div>
