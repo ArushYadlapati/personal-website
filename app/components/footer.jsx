@@ -13,32 +13,37 @@ function Footer() {
             <div className="absolute top-0 h-[1px] w-1/2  bg-gradient-to-r from-transparent via-violet-500 to-transparent"></div>
           </div>
           <div className="flex flex-col md:flex-row items-center justify-between">
-            <p className="text-sm">
+            <p className="font-mono text-lg md:text-xl lg:text-1xl text-sky-500 transition-all duration-300">
               Arush Yadlapati
             </p>
-            <a href="mailto:hello@arush.me" className="text-sm text-sky-500 hover:underline transition-all duration-300">
+            <a href="mailto:hello@arush.me"
+               className="font-mono text-lg md:text-xl lg:text-xl text-sky-500 hover:text-sky-500">
+            <span className="hover:underline hover:text-[#19F2B3] hover:decoration-[#19F2B3]">
               hello@arush.me
+            </span>
             </a>
+
+
             <div className="flex items-center gap-5">
               <Link
                   href={personalData.github}
                   target='_blank'
                   className="transition-all text-sky-500 hover:scale-125 duration-300"
               >
-                <BsGithub size={30} />
+                <BsGithub size={30}/>
               </Link>
               <Link
                   href={personalData.discord}
                   target='_blank'
                   className="transition-all text-sky-500 hover:scale-125 duration-300"
               >
-                <BsDiscord size={30} />
+                <BsDiscord size={30}/>
               </Link>
 
             </div>
           </div>
         </div>
-      </div >
+      </div>
   );
 };
 
