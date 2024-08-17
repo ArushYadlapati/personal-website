@@ -43,6 +43,7 @@ import memsql from '/public/svg/skills/memsql.svg';
 import microsoftoffice from '/public/svg/skills/microsoftoffice.svg';
 import mongoDB from '/public/svg/skills/mongoDB.svg';
 import mysql from '/public/svg/skills/mysql.svg';
+import nodeJS from '/public/svg/skills/nodeJS.svg';
 import nextJS from '/public/svg/skills/nextJS.svg';
 import nginx from '/public/svg/skills/nginx.svg';
 import numpy from '/public/svg/skills/numpy.svg';
@@ -99,6 +100,8 @@ export const skillsImage = (skill) => {
       return javascript;
     case 'next js':
       return nextJS;
+    case 'node js':
+      return nodeJS;
     case 'nuxt js':
       return nuxtJS;
     case 'react':
