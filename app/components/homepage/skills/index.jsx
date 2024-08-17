@@ -8,7 +8,7 @@ import Marquee from "react-fast-marquee";
 function Skills() {
     const getSkillWebsite = (skill) => {
         const websiteMap = {
-            "Javascript": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+            "JavaScript": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
             "React": "https://reactjs.org/",
             "Python": "https://www.python.org/",
             "HTML": "https://developer.mozilla.org/en-US/docs/Web/HTML",
