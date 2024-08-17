@@ -13,18 +13,18 @@ export const projectsData = [
         code: '',
         demo: '',
         image: '',
-        link: 'https://github.com/ArushYadlapati/website',
+        link: 'https://arushyadlapati.github.io/cookbook/roadrunner_10/complete_trajectorybuilder_reference.html',
     },
     {
         id: 2,
-        name: 'Travel Agency App',
+        name: 'Robotics Documentation',
         description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
         tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
         role: 'Full Stack Developer',
         code: '',
         demo: '',
         image: '',
-        link: '',
+        link: 'https://docs.seattlesolvers.com/',
     },
     {
         id: 3,
@@ -35,7 +35,7 @@ export const projectsData = [
         role: 'Full Stack Developer',
         demo: '',
         image: '',
-        link: '',
+        link: 'https://www.seattlesolvers.com/',
     },
     {
         id: 4,
@@ -46,7 +46,7 @@ export const projectsData = [
         code: '',
         demo: '',
         image: '',
-        link: '',
+        link: 'https://github.com/FTC-23511/Offseason-2024',
     }
 ];
 

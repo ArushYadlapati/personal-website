@@ -8,7 +8,8 @@ const TypeAnimation = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [typingSpeed, setTypingSpeed] = useState(150);
 
-    const words = ['programmer', 'student', 'roboticist', 'mentor'];
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    const words = ['programmer', 'sophomore', 'roboticist', 'mentor'];
 
     useEffect(() => {
         const handleTyping = () => {
