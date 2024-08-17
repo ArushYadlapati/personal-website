@@ -58,6 +58,7 @@ function ProjectCard({ project }) {
           <div className="ml-4 lg:ml-8 mr-2">
             <span className=" text-white">tools:</span>
             <span className="text-gray-400">{` ['`}</span>
+
             {
               project.tools.map((tag, i) => (
                   <React.Fragment key={i}>
@@ -69,7 +70,7 @@ function ProjectCard({ project }) {
                   </React.Fragment>
               ))
             }
-            <span className="text-gray-400">{"],"}</span>
+            <span className="text-gray-400">{"'],"}</span>
           </div>
           <div>
             <span className="ml-4 lg:ml-8 mr-2 text-white">myRole:</span>

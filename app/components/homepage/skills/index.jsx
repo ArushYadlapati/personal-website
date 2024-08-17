@@ -85,7 +85,6 @@ function Skills() {
             "Webex": "https://www.webex.com/",
             "Wordpress": "https://wordpress.org/"
         };
-        
         return websiteMap[skill] || "#"; // Return "#" if no website is defined
     };
 
