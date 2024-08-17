@@ -75,16 +75,16 @@ function HeroSection() {
           <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
             <code className="font-mono text-xs md:text-sm lg:text-base">
               <div className="blink">
-                <span className="mr-2 text-pink-500">const</span>
-                <span className="mr-2 text-white">coder</span>
-                <span className="mr-2 text-pink-500">=</span>
+                <span className="mr-2 text-pink-500">function</span>
+                <span className="mr-2 text-white">coder()</span>
+                <span className="mr-2 text-pink-500"></span>
                 <span className="text-gray-400">{'{'}</span>
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
                 <span className="text-gray-400">{`'`}</span>
                 <span className="text-amber-300">Arush</span>
-                <span className="text-gray-400">{`',`}</span>
+                <span className="text-gray-400">{`';`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
                 <span className=" text-white">programming_languages:</span>
@@ -112,7 +112,7 @@ function HeroSection() {
                 <span className="text-amber-300">Kotlin</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Gradle</span>
-                <span className="text-gray-400">{"'],"}</span>
+                <span className="text-gray-400">{"'];"}</span>
 
               </div>
 
