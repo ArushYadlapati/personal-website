@@ -40,17 +40,6 @@ function Experience() {
 
                                     <a href={experience.link} target="_blank" rel="noopener noreferrer">
                                         <div className="p-3 relative">
-
-                                            <a href={experience.link} target="_blank" rel="noopener noreferrer">
-                                                <Image
-                                                    src="./blur-23.svg"
-                                                    alt="Hero"
-                                                    width={1080}
-                                                    height={200}
-                                                    className="absolute bottom-0 opacity-80"
-                                                />
-                                            </a>
-
                                             <div className="flex justify-center">
                                                 <p className="text-xs sm:text-sm text-[#16f2b3]">
                                                     {experience.duration}
@@ -67,7 +56,7 @@ function Experience() {
                                                     </p>
                                                     <p className="text-sm sm:text-base text-[#16f2b3]">
                                                         <a href={experience.link} target="_blank"
-                                                            rel="noopener noreferrer">
+                                                           rel="noopener noreferrer">
                                                             <span style={{textDecoration: "underline"}}>
                                                                 {experience.company}
                                                             </span>
