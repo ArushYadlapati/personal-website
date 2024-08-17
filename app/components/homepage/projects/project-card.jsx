@@ -35,13 +35,17 @@ function ProjectCard({ project }) {
             <span className="text-gray-400">{`',`}</span>
           </div>
 
-          <div>
+          <div className="relative group">
             <span className="ml-4 lg:ml-8 mr-2 text-white">link:</span>
-            <span className="text-gray-400">{`'`}</span>
-            <a href={project.link} target="_blank" rel="noopener noreferrer">
-              <span className="text-[#1C8AB5] underline hover:text-[#19F2B3]">{project.link}</span>
+            <span className="text-gray-400">&#39;</span>
+            <span className="text-[#1C8AB5] underline group-hover:text-[#19F2B3] transition-colors duration-300">
+              {project.link}
+            </span>
+            <span className="text-gray-400">&#39;</span>
+            <a href={project.link} target="_blank" rel="noopener noreferrer" className="absolute inset-0 z-10 cursor-pointer" aria-label={`Visit ${project.name} project`}>
+              <span className="sr-only">Visit project link</span>
             </a>
-            <span className="text-gray-400">{`',`}</span>
+            <span className="text-gray-400">,</span>
           </div>
 
           <div>
