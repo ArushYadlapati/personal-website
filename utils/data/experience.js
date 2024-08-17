@@ -1,20 +1,23 @@
 export const experiences = [
   {
     id: 1,
-    title: 'Software Engineer I',
-    company: "Teton Private Ltd.",
-    duration: "(Jan 2022 - Present)"
+    title: 'Robotics & Coding Instructor',
+    company: "CodeWiz Kirkland",
+    duration: "August 2024 - Present",
+    link: "https://thecodewiz.com/"
   },
   {
     id: 2,
-    title: "FullStack Developer",
-    company: "Fiverr (freelance)",
-    duration: "(Jun 2021 - Jan 2022)"
+    title: "All About Chess Coach",
+    company: "All About Chess",
+    duration: "June 2022 - August 2024",
+    link: "https://theallaboutschool.org/"
   },
   {
     id: 3,
-    title: "Self Employed",
-    company: "Code and build something in everyday.",
-    duration: "(Jan 2018 - Present)"
+    title: "Private Chess Coach",
+    company: "Self-Employed",
+    duration: "April 2021 - May 2022)",
+    link: "https://www.chess.com/classroom"
   }
 ]
