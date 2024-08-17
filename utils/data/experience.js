@@ -17,7 +17,7 @@ export const experiences = [
     id: 3,
     title: "Private Chess Coach",
     company: "Self-Employed",
-    duration: "April 2021 - May 2022)",
+    duration: "April 2021 - May 2022",
     link: "https://www.chess.com/classroom"
   }
 ]
