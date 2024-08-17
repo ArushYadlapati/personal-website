@@ -6,13 +6,14 @@ import travel from '/public/image/travel.jpg';
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
+        name: 'RoadRunner v1.0.x TrajectoryBuilder Docs',
         description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
+        tools: ['Markdown', 'JavaScript', 'CSS', 'HTML', 'Java'],
+        role: 'Creator & Programmer',
         code: '',
         demo: '',
-        image: crefin,
+        image: '',
+        link: 'https://github.com/ArushYadlapati/website',
     },
     {
         id: 2,
@@ -22,7 +23,8 @@ export const projectsData = [
         role: 'Full Stack Developer',
         code: '',
         demo: '',
-        image: travel,
+        image: '',
+        link: '',
     },
     {
         id: 3,
@@ -32,17 +34,19 @@ export const projectsData = [
         code: '',
         role: 'Full Stack Developer',
         demo: '',
-        image: realEstate,
+        image: '',
+        link: '',
     },
     {
         id: 4,
         name: 'Newsroom Management',
         description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
         tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
+        role: 'Full Stack Developer',
         code: '',
         demo: '',
-        image: "ayla",
-        role: 'Full Stack Developer',
+        image: '',
+        link: '',
     }
 ];
 

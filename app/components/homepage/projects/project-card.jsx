@@ -35,18 +35,28 @@ function ProjectCard({ project }) {
             <span className="text-gray-400">{`',`}</span>
           </div>
 
+          <div>
+            <span className="ml-4 lg:ml-8 mr-2 text-white">link:</span>
+            <span className="text-gray-400">{`'`}</span>
+            <a href={project.link} target="_blank" rel="noopener noreferrer">
+              <span className="text-[#1C8AB5] underline hover:text-[#19F2B3]">{project.link}</span>
+            </a>
+            <span className="text-gray-400">{`',`}</span>
+          </div>
+
+
           <div className="ml-4 lg:ml-8 mr-2">
             <span className=" text-white">tools:</span>
             <span className="text-gray-400">{` ['`}</span>
             {
               project.tools.map((tag, i) => (
-                <React.Fragment key={i}>
-                  <span className="text-amber-300">{tag}</span>
-                  {
-                    project.tools.length - 1 !== i &&
-                    <span className="text-gray-400">{`', '`}</span>
-                  }
-                </React.Fragment>
+                  <React.Fragment key={i}>
+                    <span className="text-amber-300">{tag}</span>
+                    {
+                        project.tools.length - 1 !== i &&
+                        <span className="text-gray-400">{`', '`}</span>
+                    }
+                  </React.Fragment>
               ))
             }
             <span className="text-gray-400">{"],"}</span>
