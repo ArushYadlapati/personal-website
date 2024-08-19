@@ -4,7 +4,7 @@ export const projectsData = [
         name: 'Offseason Robot',
         description: "My team and I are developing and programming Swerve Drive for our offseason Centerstage robot. It includes robust mechanisms like our active intake, deposit with a wrist, hangar, and drone launcher.",
         date: "May 2024 - Present Day",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
+        tools: ['Java', 'Gradle', 'Android Studio', 'FTC Dashboard'],
         role: 'Programmer',
         code: '',
         demo: '',
