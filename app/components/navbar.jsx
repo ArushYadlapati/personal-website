@@ -43,10 +43,10 @@ function Navbar() {
               <a
                   href="/#experience"
                   className="block px-4 py-2 no-underline outline-none hover:no-underline"
-                  onClick={(e) => handleScroll(e, "experience")}
+                  onClick={(e) => handleScroll(e, "skills")}
               >
                 <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                  EXPERIENCE
+                  SKILLS
                 </div>
               </a>
             </li>
@@ -54,10 +54,10 @@ function Navbar() {
               <a
                   href="/#skills"
                   className="block px-4 py-2 no-underline outline-none hover:no-underline"
-                  onClick={(e) => handleScroll(e, "skills")}
+                  onClick={(e) => handleScroll(e, "experience")}
               >
                 <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                  SKILLS
+                  EXPERIENCE
                 </div>
               </a>
             </li>
