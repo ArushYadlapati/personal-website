@@ -13,9 +13,8 @@
 body {
   color: rgb(var(--foreground-rgb));
   background-color: #0d1224;
-  overflow-x: hidden;
-  width: 100%;
   position: relative;
+  width: 100%;
 }
 #sticky-card-1 {
   --index: 1;
@@ -34,14 +33,5 @@ body {
 }
 
 html {
-  overflow-x: hidden;
   width: 100%;
-}
-
-/* Add this CSS for the wrapper element */
-.wrapper {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  overflow-x: visible;
 }
