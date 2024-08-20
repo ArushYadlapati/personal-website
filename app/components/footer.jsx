@@ -1,4 +1,3 @@
-// @flow strict
 import Link from 'next/link';
 import {personalData} from "@/utils/data/personal-data";
 import {BsDiscord, BsGithub} from "react-icons/bs";
