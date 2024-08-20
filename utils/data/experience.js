@@ -10,7 +10,7 @@ export const experiences = [
     id: 2,
     title: "All About Chess Coach",
     company: "All About Chess",
-    duration: "June 2022 - August 2024",
+    duration: "June 2022 - Present",
     link: "https://theallaboutschool.org/"
   },
   {

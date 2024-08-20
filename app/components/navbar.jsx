@@ -57,7 +57,7 @@ function Navbar() {
                   onClick={(e) => handleScroll(e, "experience")}
               >
                 <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                  EXPERIENCE
+                  EXPERIENCES
                 </div>
               </a>
             </li>
