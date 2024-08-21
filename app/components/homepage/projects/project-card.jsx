@@ -92,26 +92,24 @@ function ProjectCard({project}) {
                 </div>
             </div>
 
-            <div className="mt-4 lg:mt-0 lg:ml-4 flex-shrink-0 w-full lg:w-auto">
-                <div className="p-4">
+            {/*<div className="pl-4 lg:pl-10 pr-10 pb-10">*/}
+            <div className="flex justify-center items-center w-full h-full p-4 lg:p-12">
+                <div className="w-full max-w-md lg:max-w-none lg:w-[135%]">
                     <Image
                         src={project.image}
                         alt={project.name}
                         width={1080}
                         height={200}
-                        className="w-full h-full object-cover rounded-lg"
+                        className="w-full h-auto object-cover rounded-lg transform lg:scale-135"
                         style={{
-                            maxWidth: '75%',
-                            maxHeight: '75%',
+                            maxWidth: '100%',
+                            maxHeight: '100%',
                             objectFit: 'cover',
                             borderRadius: '10px',
-                            display: 'block'
                         }}
                     />
                 </div>
             </div>
-
-
         </div>
     );
 }

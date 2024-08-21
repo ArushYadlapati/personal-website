@@ -1,7 +1,6 @@
 import {projectsData} from '@/utils/data/projects-data';
 import ProjectCard from './project-card';
 import Image from "next/image";
-import '/app/css/mobile.css';
 
 const Projects = () => {
 
@@ -37,7 +36,7 @@ const Projects = () => {
                     className="sticky-card w-full mx-auto max-w-2xl sticky"
                 >
                     <div
-                        className="box-border flex items-center justify-center rounded shadow-[0_0_30px_0_rgba(0,0,0,0.3)] transition-all duration-[0.5s] w-[1000px] flex-mobile"> {/* Add flex-mobile class */}
+                        className="box-border flex items-center justify-center rounded shadow-[0_0_30px_0_rgba(0,0,0,0.3)] transition-all duration-[0.5s] flex-mobile"> {/* Add flex-mobile class */}
                         <ProjectCard project={project}/>
                         <Image
                             src="./blur-23.svg"
