@@ -20,7 +20,7 @@ export const projectsData = [
         code: '',
         role: 'Co-creator & Programmer',
         demo: '',
-        image: "/png/placeholder.png",
+        image: "/png/project-2.png",
         link: 'https://www.seattlesolvers.com/',
     },
     {
@@ -32,7 +32,7 @@ export const projectsData = [
         role: 'Creator & Programmer',
         code: '',
         demo: '',
-        image: "/png/placeholder.png",
+        image: "/png/new-project-3.png",
         link: 'https://docs.seattlesolvers.com/',
     },
     {
@@ -44,7 +44,7 @@ export const projectsData = [
         role: 'Creator & Programmer',
         code: '',
         demo: '',
-        image: "/png/placeholder.png",
+        image: "/png/project-4.png",
         link: "https://ftc-23511.github.io/TrajectoryBuilder/",
     }
 ];

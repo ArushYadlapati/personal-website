@@ -82,10 +82,48 @@ function ProjectCard({ project }) {
                             <span className="text-cyan-400">{' ' + project.description}</span>
                             <span className="text-gray-400"></span>
                         </div>
-                        <div><span className="text-gray-400">{`};`}</span>
+                        <div>
+                            <span className="text-gray-400">{`};`}</span>
                         </div>
+                        <div>
+                            <span className="text-gray-400 opacity-0">{`.`}</span>
+                        </div>
+                        <div>
+                            <span className="text-gray-400 opacity-0">{`.`}</span>
+                        </div>
+                        <div>
+                            <span className="text-gray-400 opacity-0">{`.`}</span>
+                        </div>
+                        <div>
+                            <span className="text-gray-400 opacity-0">{`.`}</span>
+                        </div>
+                        <div>
+                            <span className="text-gray-400 opacity-0">{`.`}</span>
+                        </div>
+                        <div>
+                            <span className="text-gray-400 opacity-0">{`.`}</span>
+                        </div>
+                        <div>
+                            <span className="text-gray-400 opacity-0">{`.`}</span>
+                        </div>
+                        <div>
+                            <span className="text-gray-400 opacity-0">{`.`}</span>
+                        </div>
+                        <div>
+                            <span className="text-gray-400 opacity-0">{`.`}</span>
+                        </div>
+                        <div>
+                            <span className="text-gray-400 opacity-0">{`.`}</span>
+                        </div>
+                        <div>
+                            <span className="text-gray-400 opacity-0">{`.`}</span>
+                        </div>
+                        <div>
+                            <span className="text-gray-400 opacity-0">{`.`}</span>
+                        </div>
+                        
                         <div
-                            className="flex justify-center items-center w-full h-full p-4 lg:p-8"> {/* Adjusted padding here */}
+                            className="flex justify-center items-center w-full h-full lg:p-4"> {/* Adjusted padding here */}
                             <div className="w-full max-w-md lg:max-w-none lg:w-[135%]">
                                 <Image
                                     src={project.image}
