@@ -1,8 +1,9 @@
 import * as React from 'react';
+import Image from "next/image";
 
 function ProjectCard({ project }) {
   return (
-      <div className="from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37] w-full flex flex-row">
+      <div className="from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37] w-full flex flex-col lg:flex-row">
         <div className="flex-1">
           <div className="flex flex-row">
             <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
@@ -40,7 +41,8 @@ function ProjectCard({ project }) {
                 {project.link}
               </span>
                 <span className="text-gray-400">&#39;</span>
-                <a href={project.link} target="_blank" rel="noopener noreferrer" className="absolute inset-0 z-10 cursor-pointer" aria-label={`Visit ${project.name} project`}>
+                <a href={project.link} target="_blank" rel="noopener noreferrer"
+                   className="absolute inset-0 z-10 cursor-pointer" aria-label={`Visit ${project.name} project`}>
                   <span className="sr-only">Visit project link</span>
                 </a>
                 <span className="text-gray-400">,</span>
@@ -76,16 +78,27 @@ function ProjectCard({ project }) {
                 <span className="text-gray-400">,</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
-            <span className="text-white">description:</span>
-            <span className="text-cyan-400">{' ' + project.description}</span>
-            <span className="text-gray-400"></span>
+                <span className="text-white">description:</span>
+                <span className="text-cyan-400">{' ' + project.description}</span>
+                <span className="text-gray-400"></span>
+              </div>
+              <div>
+                <span className="text-gray-400">{`};`}</span>
+              </div>
+            </code>
           </div>
-          <div><span className="text-gray-400">{`};`}</span></div>
-        </code>
-      </div>
-    </div>
+        </div>
+        {/*<div className="mt-4 lg:mt-0 lg:ml-4 flex-shrink-0 w-full lg:w-auto">*/}
+        {/*  <Image*/}
+        {/*      src={project.image}*/}
+        {/*      alt={project.name}*/}
+        {/*      width={1080}*/}
+        {/*      height={200}*/}
+        {/*      className="w-full h-full object-cover rounded-lg"*/}
+        {/*  />*/}
+        {/*</div>*/}
       </div>
   );
-};
+}
 
 export default ProjectCard;

@@ -8,7 +8,7 @@ export const projectsData = [
         role: 'Programmer',
         code: '',
         demo: '',
-        image: '',
+        image: "/png/placeholder.png",
         link: 'https://github.com/FTC-23511/Offseason-2024',
     },
     {
@@ -20,7 +20,7 @@ export const projectsData = [
         code: '',
         role: 'Co-creator & Programmer',
         demo: '',
-        image: '',
+        image: "/png/placeholder.png",
         link: 'https://www.seattlesolvers.com/',
     },
     {
@@ -32,7 +32,7 @@ export const projectsData = [
         role: 'Creator & Programmer',
         code: '',
         demo: '',
-        image: '',
+        image: "/png/placeholder.png",
         link: 'https://docs.seattlesolvers.com/',
     },
     {
@@ -44,7 +44,7 @@ export const projectsData = [
         role: 'Creator & Programmer',
         code: '',
         demo: '',
-        image: '',
+        image: "/png/placeholder.png",
         link: "https://ftc-23511.github.io/TrajectoryBuilder/",
     }
 ];
