@@ -8,7 +8,7 @@ export const projectsData = [
         role: 'Programmer',
         code: '',
         demo: '',
-        image: "/png/placeholder.png",
+        image: "/png/small-project-1.png",
         link: 'https://github.com/FTC-23511/Offseason-2024',
     },
     {
