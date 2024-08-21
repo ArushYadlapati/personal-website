@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+    .flex-mobile {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
