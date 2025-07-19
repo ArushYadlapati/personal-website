@@ -11,12 +11,12 @@ function Footer() {
           </div>
           <div className="flex flex-col md:flex-row items-center justify-between">
             <p className="font-mono text-lg md:text-xl lg:text-1xl text-sky-500 transition-all duration-300">
-              Arush Yadlapati
+              Arush Y
             </p>
-            <a href="mailto:hello@arush.me"
+            <a href="mailto:hello@arush.dev"
                className="font-mono text-lg md:text-xl lg:text-xl text-sky-500 hover:text-sky-500">
             <span className="hover:underline hover:text-[#19F2B3] hover:decoration-[#19F2B3]">
-              hello@arush.me
+              hello@arush.dev
             </span>
             </a>
 
