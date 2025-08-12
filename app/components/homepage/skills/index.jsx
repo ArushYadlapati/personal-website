@@ -1,10 +1,7 @@
-'use client';
 import {skillsData} from "@/utils/data/skills";
 import {skillsImage} from "@/utils/skill-image";
 import Image from "next/image";
-import dynamic from 'next/dynamic';
-
-const Marquee = dynamic(() => import('react-fast-marquee'), { ssr: false });
+import Marquee from "react-fast-marquee";
 
 function Skills() {
     const getSkillWebsite = (skill) => {
