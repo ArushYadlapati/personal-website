@@ -5,6 +5,8 @@ import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
 import '../app/css/globals.css';
 
+export const dynamic = 'force-dynamic';
+
 export default async function Home() {
 
   return (

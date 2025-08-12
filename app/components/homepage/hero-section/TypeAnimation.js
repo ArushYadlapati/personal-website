@@ -9,7 +9,7 @@ const TypeAnimation = () => {
     const [typingSpeed, setTypingSpeed] = useState(150);
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    const words = ['programmer', 'sophomore', 'roboticist'];
+    const words = ['programmer', 'junior', 'roboticist'];
 
     useEffect(() => {
         const handleTyping = () => {
