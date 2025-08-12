@@ -6,6 +6,8 @@ import Navbar from "./components/navbar";
 import "./css/card.css";
 import "./css/globals.css";
 import ScrollToTop from "./components/helper/scroll-to-top";
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -25,6 +27,8 @@ export default function RootLayout({ children }) {
           <ScrollToTop />
         </main>
         <Footer />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
