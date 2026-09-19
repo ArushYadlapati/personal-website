@@ -11,26 +11,29 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.1",
-    "@next/third-parties": "^14.1.3",
+    "@next/third-parties": "^15.5.25",
     "@vercel/analytics": "^1.5.0",
     "@vercel/speed-insights": "^1.2.0",
     "axios": "^1.6.8",
     "ci": "^2.3.0",
     "lottie-react": "^2.4.0",
-    "next": "^14.2.13",
-    "react": "latest",
-    "react-dom": "latest",
+    "next": "^15.5.25",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
     "react-fast-marquee": "^1.6.2",
     "react-google-recaptcha": "^3.1.0",
     "react-icons": "^4.11.0",
     "react-toastify": "^10.0.4",
-    "styled-components": "^6.1.12"
+    "styled-components": "^6.4.0"
+  },
+  "overrides": {
+    "postcss": "$postcss"
   },
   "devDependencies": {
     "autoprefixer": "latest",
     "eslint": "latest",
     "eslint-config-next": "latest",
-    "postcss": "latest",
+    "postcss": "^8.5.28",
     "sass": "^1.69.5",
     "tailwindcss": "latest"
   }
